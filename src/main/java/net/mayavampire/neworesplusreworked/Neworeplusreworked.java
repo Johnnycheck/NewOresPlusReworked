@@ -1,6 +1,7 @@
 package net.mayavampire.neworesplusreworked;
 
 import com.mojang.logging.LogUtils;
+import net.mayavampire.neworesplusreworked.block.ModBlocks;
 import net.mayavampire.neworesplusreworked.item.ModCreativeModeTabs;
 import net.mayavampire.neworesplusreworked.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
@@ -25,6 +26,7 @@ public class Neworeplusreworked {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModItems.register(modEventBus);
 

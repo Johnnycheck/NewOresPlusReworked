@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "neworesplusreworked:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "neworesplusreworked:tin_block"
+  }
+}

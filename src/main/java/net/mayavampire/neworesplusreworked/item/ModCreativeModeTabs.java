@@ -1,6 +1,7 @@
 package net.mayavampire.neworesplusreworked.item;
 
 import net.mayavampire.neworesplusreworked.Neworeplusreworked;
+import net.mayavampire.neworesplusreworked.block.ModBlocks;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -20,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((p_270258_, p_259752_) -> {
                         p_259752_.accept(ModItems.TIN_INGOT.get());
                         p_259752_.accept(ModItems.RAW_TIN.get());
+                        p_259752_.accept(ModBlocks.TIN_BLOCK.get());
                     })
                     .build());
 
